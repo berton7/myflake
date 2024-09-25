@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
     ninja
   ];
 
-  buildInputs = [
+  propagatedBuildInputs = [
     boost.dev
     openssl
     zlib
