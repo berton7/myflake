@@ -16,6 +16,7 @@
 
   example-package = pkgs.callPackage ./pkgs/example-package { };
   cpprestsdk = pkgs.callPackage ./pkgs/cpprestsdk { };
+  yin_yang = pkgs.callPackage ./pkgs/yin_yang { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
